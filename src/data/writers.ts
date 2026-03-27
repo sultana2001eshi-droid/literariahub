@@ -310,6 +310,7 @@ export const writers: Writer[] = [
     birth: '1688',
     death: '1744',
     period: 'neoclassical',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Alexander_Pope_by_Michael_Dahl.jpg/220px-Alexander_Pope_by_Michael_Dahl.jpg',
     intro: {
       en: 'The master of the heroic couplet and the greatest satirical poet of the 18th century.',
       bn: 'বীরত্বমূলক কাপলের মাস্টার এবং ১৮ শতকের সর্বশ্রেষ্ঠ ব্যঙ্গ কবি।'
@@ -341,6 +342,7 @@ export const writers: Writer[] = [
     birth: '1667',
     death: '1745',
     period: 'neoclassical',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Jonathan_Swift_by_Charles_Jervas_detail.jpg/220px-Jonathan_Swift_by_Charles_Jervas_detail.jpg',
     intro: {
       en: 'The greatest prose satirist in English literature, author of Gulliver\'s Travels.',
       bn: 'ইংরেজি সাহিত্যের সর্বশ্রেষ্ঠ গদ্য ব্যঙ্গকার, গালিভার্স ট্রাভেলসের লেখক।'
@@ -374,6 +376,7 @@ export const writers: Writer[] = [
     birth: '1770',
     death: '1850',
     period: 'romantic',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Benjamin_Robert_Haydon_-_William_Wordsworth.jpg/220px-Benjamin_Robert_Haydon_-_William_Wordsworth.jpg',
     intro: {
       en: 'The father of English Romanticism who revolutionized poetry with his celebration of nature and common life.',
       bn: 'ইংরেজি রোমান্টিসিজমের জনক যিনি প্রকৃতি ও সাধারণ জীবনের উদযাপনে কবিতায় বিপ্লব ঘটিয়েছিলেন।'
@@ -405,6 +408,7 @@ export const writers: Writer[] = [
     birth: '1795',
     death: '1821',
     period: 'romantic',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/John_Keats_by_William_Hilton.jpg/220px-John_Keats_by_William_Hilton.jpg',
     intro: {
       en: 'A supreme lyric poet whose sensuous odes represent the pinnacle of English Romantic poetry.',
       bn: 'একজন সর্বোচ্চ গীতিকবি যার সংবেদনশীল ওডগুলি ইংরেজি রোমান্টিক কবিতার শীর্ষকে প্রতিনিধিত্ব করে।'
@@ -436,6 +440,7 @@ export const writers: Writer[] = [
     birth: '1792',
     death: '1822',
     period: 'romantic',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Percy_Bysshe_Shelley_by_Alfred_Clint.jpg/220px-Percy_Bysshe_Shelley_by_Alfred_Clint.jpg',
     intro: {
       en: 'A radical visionary poet celebrated for his lyrical genius and passionate idealism.',
       bn: 'একজন মৌলিক দূরদর্শী কবি যিনি তার গীতিময় প্রতিভা এবং আবেগপূর্ণ আদর্শবাদের জন্য পরিচিত।'
@@ -469,6 +474,7 @@ export const writers: Writer[] = [
     birth: '1812',
     death: '1870',
     period: 'victorian',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Dickens_Gurney_head.jpg/220px-Dickens_Gurney_head.jpg',
     intro: {
       en: 'The greatest Victorian novelist, a master storyteller who gave voice to the poor and oppressed.',
       bn: 'সর্বশ্রেষ্ঠ ভিক্টোরিয়ান ঔপন্যাসিক, একজন মাস্টার গল্পকার যিনি দরিদ্র ও নিপীড়িতদের কণ্ঠ দিয়েছিলেন।'
