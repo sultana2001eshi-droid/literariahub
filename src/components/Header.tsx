@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { searchWriters } from '@/data/writers';
 import { motion, AnimatePresence } from 'framer-motion';
+import Logo from './Logo';
 
 interface HeaderProps {
   onMenuToggle: () => void;
@@ -33,15 +34,15 @@ export default function Header({ onMenuToggle }: HeaderProps) {
   };
 
   return (
-    <header className="sticky top-0 z-50 glass-card border-b">
+    <header className="sticky top-0 z-50 glass-card border-b shadow-sm">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <button onClick={onMenuToggle} className="p-2 rounded-lg hover:bg-secondary transition-colors" aria-label="Toggle menu">
             <Menu className="w-5 h-5 text-foreground" />
           </button>
-          <button onClick={() => navigate('/')} className="flex items-center gap-2">
-            <span className="text-gold text-xl">📜</span>
-            <h1 className="font-heading text-xl font-bold tracking-wide text-foreground">
+          <button onClick={() => navigate('/')} className="flex items-center gap-2.5">
+            <Logo className="w-7 h-7 text-gold" />
+            <h1 className="font-heading text-xl font-bold tracking-wider text-foreground">
               LITERARIA
             </h1>
           </button>
