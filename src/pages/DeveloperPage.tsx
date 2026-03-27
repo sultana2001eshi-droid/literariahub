@@ -1,8 +1,9 @@
 import Layout from '@/components/Layout';
 import { useLanguage } from '@/contexts/LanguageContext';
-import { ArrowLeft, User } from 'lucide-react';
+import { ArrowLeft } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import developerImg from '@/assets/developer.jpg';
 
 export default function DeveloperPage() {
   const { t } = useLanguage();
@@ -16,8 +17,8 @@ export default function DeveloperPage() {
         </button>
 
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="text-center">
-          <div className="w-24 h-24 rounded-full bg-secondary border-2 border-gold/30 flex items-center justify-center mx-auto mb-4">
-            <User className="w-10 h-10 text-muted-foreground" />
+          <div className="w-28 h-28 rounded-full overflow-hidden border-4 border-accent/30 shadow-elevated mx-auto mb-5">
+            <img src={developerImg} alt="Md Nasrullah" className="w-full h-full object-cover" />
           </div>
 
           <h1 className="font-heading text-3xl font-bold text-foreground">Md Nasrullah</h1>
@@ -44,15 +45,6 @@ export default function DeveloperPage() {
               )}
             </p>
           </div>
-
-          <a
-            href="https://mdnasrullah.pro.bd"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block mt-6 text-sm font-ui text-gold underline underline-offset-4 decoration-gold/30 hover:decoration-gold transition-colors"
-          >
-            mdnasrullah.pro.bd
-          </a>
         </motion.div>
       </div>
     </Layout>
