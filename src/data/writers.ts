@@ -112,6 +112,7 @@ export const writers: Writer[] = [
     birth: 'c. 657',
     death: 'c. 684',
     period: 'old-english',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Caedmon.jpg/220px-Caedmon.jpg',
     intro: {
       en: 'The earliest known English poet, a cowherd who composed hymns inspired by divine vision.',
       bn: 'প্রাচীনতম পরিচিত ইংরেজ কবি, একজন গোপালক যিনি ঐশ্বরিক দর্শন দ্বারা অনুপ্রাণিত হয়ে স্তোত্র রচনা করেছিলেন।'
@@ -143,6 +144,7 @@ export const writers: Writer[] = [
     birth: 'c. 700',
     death: 'c. 1000',
     period: 'old-english',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Beowulf_Cotton_MS_Vitellius_A_XV_f._132r.jpg/220px-Beowulf_Cotton_MS_Vitellius_A_XV_f._132r.jpg',
     intro: {
       en: 'The anonymous author of Beowulf, the greatest surviving Old English epic poem.',
       bn: 'বেউলফের বেনামী লেখক, প্রাচীন ইংরেজি মহাকাব্যের সর্বশ্রেষ্ঠ টিকে থাকা রচনা।'
@@ -176,6 +178,7 @@ export const writers: Writer[] = [
     birth: 'c. 1343',
     death: '1400',
     period: 'middle-english',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Portrait_of_Geoffrey_Chaucer_%28%29_by_anonymous_%28%29.jpg/220px-Portrait_of_Geoffrey_Chaucer_%28%29_by_anonymous_%28%29.jpg',
     intro: {
       en: 'The Father of English Literature, whose Canterbury Tales transformed English poetry and established the vernacular as a literary language.',
       bn: 'ইংরেজি সাহিত্যের জনক, যার ক্যান্টারবেরি টেলস ইংরেজি কবিতাকে রূপান্তরিত করেছিল।'
@@ -209,6 +212,7 @@ export const writers: Writer[] = [
     birth: '1564',
     death: '1616',
     period: 'renaissance',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Shakespeare.jpg/220px-Shakespeare.jpg',
     intro: {
       en: 'The Bard of Avon — the greatest writer in the English language and the world\'s greatest dramatist.',
       bn: 'এভনের কবি — ইংরেজি ভাষার সর্বশ্রেষ্ঠ লেখক এবং বিশ্বের সর্বশ্রেষ্ঠ নাট্যকার।'
@@ -240,6 +244,7 @@ export const writers: Writer[] = [
     birth: '1564',
     death: '1593',
     period: 'renaissance',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Marlowe-Portrait-1585.jpg/220px-Marlowe-Portrait-1585.jpg',
     intro: {
       en: 'A brilliant dramatist who pioneered blank verse in English drama and paved the way for Shakespeare.',
       bn: 'একজন উজ্জ্বল নাট্যকার যিনি ইংরেজি নাটকে ব্ল্যাংক ভার্সের পথিকৃৎ এবং শেকসপিয়রের পথ প্রশস্ত করেছিলেন।'
@@ -271,6 +276,7 @@ export const writers: Writer[] = [
     birth: '1608',
     death: '1674',
     period: 'renaissance',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/John_Milton_by_William_Faithorne_1670.jpg/220px-John_Milton_by_William_Faithorne_1670.jpg',
     intro: {
       en: 'The author of Paradise Lost, the greatest epic poem in the English language.',
       bn: 'প্যারাডাইস লস্টের লেখক, ইংরেজি ভাষার সর্বশ্রেষ্ঠ মহাকাব্য।'
