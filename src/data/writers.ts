@@ -506,6 +506,7 @@ export const writers: Writer[] = [
     birth: '1809',
     death: '1892',
     period: 'victorian',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Alfred_Lord_Tennyson_1869.jpg/220px-Alfred_Lord_Tennyson_1869.jpg',
     intro: {
       en: 'The Poet Laureate who became the voice of the Victorian age through his musical verse.',
       bn: 'পয়েট লরিয়েট যিনি তার সুরেলা পদ্যের মাধ্যমে ভিক্টোরিয়ান যুগের কণ্ঠস্বর হয়ে উঠেছিলেন।'
@@ -539,6 +540,7 @@ export const writers: Writer[] = [
     birth: '1888',
     death: '1965',
     period: 'modern',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Thomas_Stearns_Eliot_by_Lady_Ottoline_Morrell_%281934%29.jpg/220px-Thomas_Stearns_Eliot_by_Lady_Ottoline_Morrell_%281934%29.jpg',
     intro: {
       en: 'The most influential modernist poet, whose The Waste Land redefined 20th-century poetry.',
       bn: 'সবচেয়ে প্রভাবশালী আধুনিকতাবাদী কবি, যার দ্য ওয়েস্ট ল্যান্ড বিংশ শতাব্দীর কবিতাকে পুনর্সংজ্ঞায়িত করেছিল।'
@@ -570,6 +572,7 @@ export const writers: Writer[] = [
     birth: '1882',
     death: '1941',
     period: 'modern',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/George_Charles_Beresford_-_Virginia_Woolf_in_1902_-_Restoration.jpg/220px-George_Charles_Beresford_-_Virginia_Woolf_in_1902_-_Restoration.jpg',
     intro: {
       en: 'A pioneering modernist novelist and feminist thinker who revolutionized the art of fiction.',
       bn: 'একজন পথিকৃৎ আধুনিকতাবাদী ঔপন্যাসিক ও নারীবাদী চিন্তাবিদ যিনি কথাসাহিত্যের শিল্পে বিপ্লব ঘটিয়েছিলেন।'
@@ -603,6 +606,7 @@ export const writers: Writer[] = [
     birth: '1947',
     death: '—',
     period: 'postmodern',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Salman_Rushdie_in_New_York_City_2008.jpg/220px-Salman_Rushdie_in_New_York_City_2008.jpg',
     intro: {
       en: 'A master of magical realism whose Midnight\'s Children redefined postcolonial fiction.',
       bn: 'জাদু বাস্তববাদের মাস্টার যার মিডনাইটস চিলড্রেন উত্তর-ঔপনিবেশিক কথাসাহিত্যকে পুনর্সংজ্ঞায়িত করেছিল।'
@@ -634,6 +638,7 @@ export const writers: Writer[] = [
     birth: '1931',
     death: '2019',
     period: 'postmodern',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Toni_Morrison_2008-2.jpg/220px-Toni_Morrison_2008-2.jpg',
     intro: {
       en: 'Nobel laureate who illuminated the African American experience with poetic, haunting prose.',
       bn: 'নোবেল বিজয়ী যিনি কাব্যিক, ভৌতিক গদ্যে আফ্রিকান আমেরিকান অভিজ্ঞতাকে আলোকিত করেছিলেন।'
