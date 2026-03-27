@@ -5,6 +5,7 @@ import { useTheme } from '@/contexts/ThemeContext';
 import { periods } from '@/data/writers';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useState } from 'react';
+import Logo from './Logo';
 
 interface SidebarProps {
   open: boolean;
@@ -41,9 +42,9 @@ export default function AppSidebar({ open, onClose }: SidebarProps) {
             className="fixed left-0 top-0 bottom-0 w-80 max-w-[85vw] bg-sidebar z-50 shadow-elevated flex flex-col"
           >
             <div className="p-4 flex items-center justify-between border-b border-sidebar-border">
-              <div className="flex items-center gap-2">
-                <span className="text-sidebar-primary text-lg">📜</span>
-                <span className="font-heading text-lg font-bold text-sidebar-foreground tracking-wide">LITERARIA</span>
+              <div className="flex items-center gap-2.5">
+                <Logo className="w-6 h-6 text-sidebar-primary" />
+                <span className="font-heading text-lg font-bold text-sidebar-foreground tracking-wider">LITERARIA</span>
               </div>
               <button onClick={onClose} className="p-2 rounded-lg hover:bg-sidebar-accent transition-colors">
                 <X className="w-5 h-5 text-sidebar-foreground" />
