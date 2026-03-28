@@ -2,7 +2,8 @@ import { useParams, useNavigate } from 'react-router-dom';
 import Layout from '@/components/Layout';
 import { getWriterById, getPeriodById } from '@/data/writers';
 import { useLanguage } from '@/contexts/LanguageContext';
-import { ArrowLeft, BookOpen, Feather, Award, Quote, User } from 'lucide-react';
+import { ArrowLeft, BookOpen, Feather, Award, Quote } from 'lucide-react';
+import WriterImage from '@/components/WriterImage';
 import { motion } from 'framer-motion';
 
 export default function WriterPage() {
