@@ -41,7 +41,7 @@ export default function Footer() {
                 <li key={link.path}>
                   <button
                     onClick={() => navigate(link.path)}
-                    className="font-ui text-sm text-primary-foreground/50 hover:text-accent transition-colors"
+                    className="font-ui text-sm text-primary-foreground/50 hover:text-accent transition-colors duration-200"
                   >
                     {link.label}
                   </button>
@@ -56,14 +56,12 @@ export default function Footer() {
               {t('Developer', 'ডেভেলপার')}
             </h4>
             <p className="font-ui text-sm text-primary-foreground/70 font-medium">Md Nasrullah</p>
-            <a
-              href="https://mdnasrullah.pro.bd"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-ui text-xs text-accent/70 hover:text-accent transition-colors mt-1 inline-block"
-            >
-              mdnasrullah.pro.bd
-            </a>
+            <p className="font-ui text-xs text-primary-foreground/50 mt-1">
+              {t('Department of English', 'ইংরেজি বিভাগ')}
+            </p>
+            <p className="font-ui text-xs text-primary-foreground/50">
+              {t('BM College, Barishal', 'বিএম কলেজ, বরিশাল')}
+            </p>
           </div>
         </div>
       </div>

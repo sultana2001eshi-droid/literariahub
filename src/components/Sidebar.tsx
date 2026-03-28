@@ -139,11 +139,6 @@ export default function AppSidebar({ open, onClose }: SidebarProps) {
               </button>
             </nav>
 
-            <div className="p-4 border-t border-sidebar-border">
-              <p className="text-xs text-sidebar-foreground/50 font-ui text-center">
-                {t('Explore the Legacy of English Literature', 'ইংরেজি সাহিত্যের উত্তরাধিকার অন্বেষণ করুন')}
-              </p>
-            </div>
           </motion.aside>
         </>
       )}
