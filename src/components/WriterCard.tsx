@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Writer } from '@/data/writers';
 import { motion } from 'framer-motion';
-import { User } from 'lucide-react';
+import WriterImage from '@/components/WriterImage';
 
 export default function WriterCard({ writer, index }: { writer: Writer; index: number }) {
   const { language } = useLanguage();
@@ -18,12 +18,8 @@ export default function WriterCard({ writer, index }: { writer: Writer; index: n
     >
       <div className="p-5">
         <div className="flex items-start gap-4">
-          <div className="w-16 h-20 rounded-lg bg-secondary flex items-center justify-center flex-shrink-0 border overflow-hidden">
-            {writer.image ? (
-              <img src={writer.image} alt={writer.name.en} className="w-full h-full object-cover" loading="lazy" />
-            ) : (
-              <User className="w-6 h-6 text-muted-foreground/30" />
-            )}
+          <div className="w-16 h-20 rounded-lg bg-secondary flex-shrink-0 border overflow-hidden">
+            <WriterImage writer={writer} iconSize="w-3.5 h-3.5" />
           </div>
           <div className="flex-1 min-w-0">
             <h3 className="font-heading text-base font-bold text-foreground group-hover:text-gold transition-colors">
