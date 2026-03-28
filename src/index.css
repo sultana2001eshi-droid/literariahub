@@ -219,3 +219,9 @@
 ::-webkit-scrollbar-thumb:hover {
   background: hsl(var(--gold) / 0.6);
 }
+
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}

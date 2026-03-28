@@ -38,8 +38,18 @@ export default function WriterImage({ writer, className = '', iconSize = 'w-4 h-
             initial={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.3 }}
-            className="absolute inset-0 bg-gradient-to-br from-secondary via-accent/5 to-secondary animate-pulse"
-          />
+            className="absolute inset-0 bg-gradient-to-br from-secondary via-accent/5 to-secondary"
+          >
+            {/* Shimmer effect */}
+            <div className="absolute inset-0 overflow-hidden">
+              <div
+                className="absolute inset-0 -translate-x-full animate-[shimmer_1.5s_infinite]"
+                style={{
+                  background: 'linear-gradient(90deg, transparent, hsl(var(--accent) / 0.08), transparent)',
+                }}
+              />
+            </div>
+          </motion.div>
         )}
       </AnimatePresence>
 
