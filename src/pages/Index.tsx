@@ -4,8 +4,8 @@ import { periods, writers } from '@/data/writers';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
-import { BookOpen, Feather, ArrowRight, User } from 'lucide-react';
-
+import { BookOpen, Feather, ArrowRight } from 'lucide-react';
+import WriterImage from '@/components/WriterImage';
 const heroWriters = ['shakespeare', 'john-milton', 'jane-austen', 'charles-dickens', 'virginia-woolf'];
 
 export default function Index() {
@@ -134,17 +134,8 @@ export default function Index() {
                     }}
                   >
                     <div className="bg-card rounded-xl border shadow-card overflow-hidden transition-shadow duration-300">
-                      <div className="aspect-[3/4] bg-secondary flex items-center justify-center">
-                        {writer.image ? (
-                          <img
-                            src={writer.image}
-                            alt={writer.name.en}
-                            className="w-full h-full object-cover"
-                            loading="lazy"
-                          />
-                        ) : (
-                          <User className="w-8 h-8 text-muted-foreground/30" />
-                        )}
+                      <div className="aspect-[3/4] bg-secondary">
+                        <WriterImage writer={writer} iconSize="w-6 h-6" />
                       </div>
                       <div className="p-3">
                         <p className="font-heading text-xs font-bold text-foreground truncate">

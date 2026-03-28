@@ -50,12 +50,8 @@ export default function WriterPage() {
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="mb-10">
           <div className="flex flex-col md:flex-row gap-6 items-start">
             {/* Image */}
-            <div className="w-32 h-40 md:w-40 md:h-52 rounded-xl bg-secondary border-2 border-accent/20 flex items-center justify-center overflow-hidden shadow-card flex-shrink-0 mx-auto md:mx-0">
-              {writer.image ? (
-                <img src={writer.image} alt={writer.name.en} className="w-full h-full object-cover" loading="lazy" />
-              ) : (
-                <User className="w-12 h-12 text-muted-foreground/30" />
-              )}
+            <div className="w-32 h-40 md:w-40 md:h-52 rounded-xl bg-secondary border-2 border-accent/20 overflow-hidden shadow-card flex-shrink-0 mx-auto md:mx-0">
+              <WriterImage writer={writer} iconSize="w-8 h-8" />
             </div>
 
             {/* Info */}
